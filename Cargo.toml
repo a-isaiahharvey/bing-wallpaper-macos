@@ -1,0 +1,72 @@
+[package]
+name = "bing-wallpaper"
+version = "0.1.0"
+edition = "2021"
+description = "An application that updates your background every day and includes a collection of beautiful images from around the world that have been featured on the Bing homepage."
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package.metadata.bundle]
+name = "Bing Wallpaper"
+identifier = "com.a-isaiahharvey.bing-wallpaper"
+icon = [
+    "images/Bing/icon_32x32.png",
+    "images/Bing/icon_128x128.png",
+    "images/Bing/icon_128x128@2x.png",
+]
+resources = ["images/**/*.png"]
+copyright = "Copyright (c) Allister Isaiah Harvey 2023. All rights reserved."
+osx_minimum_system_version = "10.15"
+
+[dependencies]
+
+[dependencies.lazy_static]
+version = "1.4.0"
+
+[dependencies.icrate]
+git = "https://github.com/madsmtm/objc2"
+features = [
+    "apple",
+    "AppKit",
+    "AppKit_NSControl",
+    "AppKit_NSFont",
+    "AppKit_NSImage",
+    "AppKit_NSLayoutConstraint",
+    "AppKit_NSLayoutXAxisAnchor",
+    "AppKit_NSLayoutYAxisAnchor",
+    "AppKit_NSMenuItem",
+    "AppKit_NSPopover",
+    "AppKit_NSScreen",
+    "AppKit_NSStatusBar",
+    "AppKit_NSStatusBarButton",
+    "AppKit_NSStatusItem",
+    "AppKit_NSTextField",
+    "AppKit_NSTextView",
+    "AppKit_NSImageView",
+    "AppKit_NSLayoutConstraint",
+    "AppKit_NSView",
+    "AppKit_NSViewController",
+    "AppKit_NSWindow",
+    "AppKit_NSWindowController",
+    "AppKit_NSWorkspace",
+    "Foundation",
+    "Foundation_NSDateFormatter",
+    "Foundation_NSArray",
+    "Foundation_NSBundle",
+    "Foundation_NSData",
+    "Foundation_NSDate",
+    "Foundation_NSDictionary",
+    "Foundation_NSFileManager",
+    "Foundation_NSJSONSerialization",
+    "Foundation_NSMutableArray",
+    "Foundation_NSMutableDictionary",
+    "Foundation_NSMutableURLRequest",
+    "Foundation_NSNotification",
+    "Foundation_NSTimer",
+    "Foundation_NSURL",
+    "Foundation_NSURLConnection",
+    "Foundation_NSURLRequest",
+    "Foundation_NSURLResponse",
+    "Foundation_NSURLSession",
+    "Foundation_NSURLSessionDataTask",
+    "Foundation_NSUserDefaults",
+]
