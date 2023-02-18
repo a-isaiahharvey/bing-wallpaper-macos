@@ -349,7 +349,7 @@ impl ViewController {
 
     fn jump_to_today(&mut self) -> Result<(), Id<NSError>> {
         unsafe {
-            self.today_button.setEnabled(true);
+            self.today_button.setEnabled(false);
             self.today_button.setTitle(ns_string!("Fetching..."));
 
             if let Some(working_directory) = preferences::shared::string(
