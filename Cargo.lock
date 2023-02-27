@@ -13,7 +13,7 @@ dependencies = [
 [[package]]
 name = "block-sys"
 version = "0.2.0"
-source = "git+https://github.com/madsmtm/objc2#d56f4aee7951a37b75858d51d22302627150cdca"
+source = "git+https://github.com/madsmtm/objc2#dac2bc1af4bd807ea435175e7eec3659376ec9bb"
 dependencies = [
  "objc-sys",
 ]
@@ -21,7 +21,7 @@ dependencies = [
 [[package]]
 name = "block2"
 version = "0.2.0-alpha.8"
-source = "git+https://github.com/madsmtm/objc2#d56f4aee7951a37b75858d51d22302627150cdca"
+source = "git+https://github.com/madsmtm/objc2#dac2bc1af4bd807ea435175e7eec3659376ec9bb"
 dependencies = [
  "block-sys",
  "objc2",
@@ -30,7 +30,7 @@ dependencies = [
 [[package]]
 name = "icrate"
 version = "0.0.2"
-source = "git+https://github.com/madsmtm/objc2#d56f4aee7951a37b75858d51d22302627150cdca"
+source = "git+https://github.com/madsmtm/objc2#dac2bc1af4bd807ea435175e7eec3659376ec9bb"
 dependencies = [
  "block2",
  "objc2",
@@ -45,12 +45,12 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 [[package]]
 name = "objc-sys"
 version = "0.3.0"
-source = "git+https://github.com/madsmtm/objc2#d56f4aee7951a37b75858d51d22302627150cdca"
+source = "git+https://github.com/madsmtm/objc2#dac2bc1af4bd807ea435175e7eec3659376ec9bb"
 
 [[package]]
 name = "objc2"
 version = "0.3.0-beta.5"
-source = "git+https://github.com/madsmtm/objc2#d56f4aee7951a37b75858d51d22302627150cdca"
+source = "git+https://github.com/madsmtm/objc2#dac2bc1af4bd807ea435175e7eec3659376ec9bb"
 dependencies = [
  "objc-sys",
  "objc2-encode",
@@ -59,4 +59,4 @@ dependencies = [
 [[package]]
 name = "objc2-encode"
 version = "2.0.0-pre.4"
-source = "git+https://github.com/madsmtm/objc2#d56f4aee7951a37b75858d51d22302627150cdca"
+source = "git+https://github.com/madsmtm/objc2#dac2bc1af4bd807ea435175e7eec3659376ec9bb"

@@ -1,6 +1,6 @@
 use delegate::AppDelegate;
 use icrate::{
-    objc2::ProtocolObject,
+    objc2::runtime::ProtocolObject,
     AppKit::{NSApplication, NSApplicationActivationPolicyAccessory},
 };
 
